@@ -45,6 +45,20 @@ product-promotions {
 	background-color: #f23;
 }
 
+/* Return Component */
+product-return {
+	color: gray;
+}
+
+product-return h5 {
+	margin: 0;
+}
+
+product-return p {
+	border-left: 1px solid gray;
+}
+
+
 /* Share Component */
 
 product-share {

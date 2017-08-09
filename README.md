@@ -26,9 +26,10 @@ Although no testing is currently implemented, the testing frameworks have been s
 
 ### Continuous Delivery
 
-For this project I ran my tests and linter locally. GitHub was used to handle version control. A tool such as Travis-CI could be used to monitor commits to the repository 
+For this project I ran my tests and linter locally. GitHub was used to handle version control. A tool such as Travis-CI could be used to monitor commits to the repository and accept or reject builds.
 
-```Local Repo 
+```
+Local Repo 
 	┗ GitHub 
 		┗ Travis-CI 
 			┣ Tests Pass -> Production
