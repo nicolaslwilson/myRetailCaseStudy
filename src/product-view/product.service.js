@@ -1,9 +1,10 @@
-ProductService.$inject = ['$http', '$location'];
+ProductService.$inject = ['$http'];
 
-export default function ProductService ($http, $location) {
+export default function ProductService ($http) {
 
 	this.getItemData = function () {
-		return $http.get('assets/item-data.json')
+		let basePath = window.location.pathname;
+		return $http.get(basePath + 'assets/item-data.json')
 			.then(_onSuccess, _onFailure);
 	};
 
