@@ -4,7 +4,7 @@ The task for this case study was to create a responsive user interface populated
 
 ### Preview
 
-![desktop](desktop.png)
+![responsive](responsive.png)
 
 
 ## Getting Started
